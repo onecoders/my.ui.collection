@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dip" >
+
+    <TextView
+        android:id="@+id/phoneId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/fromAssets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/shake"
+        style="@style/btnStyleAcapulco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-1dip"
+        android:background="@drawable/custom_btn_acapulco_top"
+        android:text="Shake" />
+
+    <Button
+        style="@style/btnStyleAcapulco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-1dip"
+        android:background="@drawable/custom_btn_acapulco_middle"
+        android:text="关于" />
+
+    <Button
+        style="@style/btnStyleAcapulco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-1dip"
+        android:background="@drawable/custom_btn_acapulco_middle"
+        android:text="意见反馈" />
+
+    <Button
+        style="@style/btnStyleAcapulco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_btn_acapulco_bottom"
+        android:text="其他设置" />
+
+</LinearLayout>

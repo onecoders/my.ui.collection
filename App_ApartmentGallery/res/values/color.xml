@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFF</color>
+    <color name="ab_bg">#548C0F</color>
+    <color name="bg_viewpager">#424242</color>
+    
+
+</resources>
